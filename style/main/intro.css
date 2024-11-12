@@ -1,0 +1,30 @@
+.intro-top__img {
+    width: 100%;
+}
+
+.intro-content__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.intro-bottom__title {
+    color: rgb(0, 0, 0);
+    font-family: "MR";
+    font-size: 53px;
+    line-height: 80px;
+    text-align: left;
+    max-width: 427px;
+    width: 100%;
+}
+
+.intro-bottom__text {
+    color: rgb(0, 0, 0);
+    font-family: "MR";
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 548px;
+    width: 100%;
+}

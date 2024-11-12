@@ -1,0 +1,118 @@
+.footer {
+    background: rgb(0, 0, 0);
+    padding-top: 60px;
+    padding-bottom: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 141px;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left__title-one {
+    color: rgb(255, 255, 255);
+    font-family: 'MR';
+    font-size: 42px;
+    line-height: 72px;
+    text-align: left;
+    max-width: 195px;
+    width: 100%;
+}
+
+.footer-left__text {
+    color: rgb(255, 255, 255);
+    font-family: 'MR';
+    line-height: 27px;
+    text-align: left;
+    max-width: 424px;
+    width: 100%;
+    margin-top: -56px;
+}
+
+.footer-lrft__form {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-left__input {
+outline:none !important ;
+border: none !important;
+background: none;
+color: rgb(129, 129, 129);
+font-family: 'MR';
+font-size: 9px;
+line-height: 14px;
+letter-spacing: 0.12px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.footer-left__lebel {
+    color: rgb(255, 255, 255);
+    font-family: 'MR';
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+hr{
+    background: rgb(129, 129, 129);
+    height: 2px;
+    border: none !important;
+
+}
+
+.footer-box__right {
+    display: flex;
+    gap: 55px;
+}
+
+.footer-right__list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-list__link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'MR';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer-box__bottom{
+
+}
+
+.footer-list__link:hover {
+    color: rgba(255, 255, 255);
+}
+
+.footer-botom__list {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-bottom__link {
+    color: rgb(255, 255, 255, 0.6);
+    font-family: 'RB';
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    transition: all 500ms;
+}
+
+.footer-bottom__link:hover {
+    color: rgb(255, 255, 255);
+}

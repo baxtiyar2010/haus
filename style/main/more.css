@@ -1,0 +1,35 @@
+.more-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+}
+
+.more-group__right{
+    margin-left: 110px;
+}
+.more-right__title{
+    color: rgb(0, 0, 0);
+    font-family: 'MR';
+    font-size: 64px;
+    text-align: left;
+    max-width: 628px;
+    width: 100%;
+}
+.more-right__text{
+    color: rgb(0, 0, 0);
+    font-family: 'MR';
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    margin-top: 110px;
+    margin-bottom: 34px;
+}
+.more-right__name{
+    color: rgb(0, 0, 0);
+    font-family: 'MR';
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}

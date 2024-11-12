@@ -1,0 +1,96 @@
+@import url(../font.css);
+
+
+.mood {
+    margin-top: 59px;
+    position: relative;
+}
+
+
+.mood-container {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+}
+
+.mood-bg__img {
+    width: 100%;
+}
+
+.mood-top {
+    background: black;
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 69px;
+}
+
+.mood-top__title {
+    max-width: 295px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'PR';
+    font-size: 55px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.mood-top__text {
+    margin-top: -70px;
+    max-width: 412px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.mood-top__link {
+    margin-top: 26px;
+    background: white;
+    padding: 18px 58px;
+    color: rgb(0, 0, 0);
+    font-family: 'RR';
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mood-bottom {
+    background: black;
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 69px;
+    margin-top: 22px;
+}
+
+.mood-bottom__title {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.mood-bottom__list {
+    display: flex;
+    gap: 50px;
+}
+
+.mood-bottom__link {
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}

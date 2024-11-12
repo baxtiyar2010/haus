@@ -1,0 +1,26 @@
+
+.main{
+    margin-top: 200px;
+}
+
+.food{
+    
+    margin-bottom: 42px;
+}
+
+.food-group{
+    display: flex;
+    gap: 165px;
+}
+
+.food-box__text{
+    color: rgb(0, 0, 0);
+font-family: 'MR';
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+max-width: 288px;
+width: 100%;
+margin-bottom: 36px;
+}

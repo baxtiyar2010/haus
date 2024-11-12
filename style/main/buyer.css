@@ -1,0 +1,47 @@
+@import url(../font.css);
+
+.buyer{
+    background: rgb(0, 0, 0);
+    height: 313px;
+    display: flex;
+    align-items: center;
+}
+.buyer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyer-info__items{
+    max-width: 338px;
+    width: 100%;
+    text-align: center;
+}
+
+.buyer-items__title{
+    color: rgb(255, 255, 255);
+font-family: 'MR';
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+margin-top: 17px;
+margin-bottom: 10px;
+}
+
+.bayer-items__text{
+    color: rgb(255, 255, 255);
+    font-family: 'MR';
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.buyer-items__name{
+    color: rgb(138, 138, 138);
+font-family: 'MR';
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+}

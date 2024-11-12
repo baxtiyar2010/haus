@@ -1,0 +1,103 @@
+@import url(../style/font.css);
+
+.made {
+    margin-bottom: 149px;
+}
+
+.made-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.made-top__title {
+    color: rgb(0, 0, 0);
+    font-family: Liberation Serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: center;
+    max-width: 673px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.made-top__title span {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.made-item__top {
+    display: flex;
+    gap: 55px;
+}
+
+
+.made-items__box {
+    text-align: center;
+}
+
+.made-box__title {
+    color: rgb(0, 0, 0);
+    font-family: Liberation Serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.made-box__img {
+    max-width: 382px;
+    width: 100%;
+}
+
+.made-box__position{
+    position: relative;
+}
+
+.made-box__position::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    content: 'BEST SELLER';
+    display: block;
+    background: black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.made-box__text {
+    color: rgb(0, 0, 0);
+    font-family: 'MR';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 366px;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+.made-box__btn {
+    color: white;
+    background: rgb(0, 0, 0);
+    font-family: 'MR';
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px 48px;
+}
